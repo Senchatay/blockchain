@@ -3,7 +3,8 @@
 ```bash
 git clone git@github.com:Senchatay/blockchain.git
 ```
-- Запуск в терминале:
+- Запуск в терминале (С помощью `docker-compose`):
 ```bash
-go run main.go
+docker-compose build
+docker-compose run --rm app
 ```

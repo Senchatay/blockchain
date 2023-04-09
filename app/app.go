@@ -38,7 +38,7 @@ func ScanNewBlocks(chain *model.Blockchain) {
 		}
 		var transaction_fields []string
 		for _, out := range text {
-			fmt.Println("Please, Enter" + out + ": ")
+			fmt.Println("Please, Enter " + out + ": ")
 			fmt.Scanln(&str)
 			transaction_fields = append(transaction_fields, str)
 		}
